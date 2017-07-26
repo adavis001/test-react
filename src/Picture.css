@@ -1,0 +1,11 @@
+.Main{
+  align-content: center;
+  animation: App-logo-spin infinite 20s linear;
+  background-color: blue;
+}
+
+.Cube{
+  animation: App-logo-spin infinite 20s linear;
+
+}
+
