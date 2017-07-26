@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Button } from './Button';
+import Picture from './Picture'
 
 class Random extends React.Component {
   constructor(props){
@@ -55,16 +56,10 @@ class Random extends React.Component {
         </h1>
         <Button light={this.isLight()}
           onClick={this.handleClick} />
-          <Button light={this.isLight()}
-          onClick={this.handleClick} />
+          <Picture onClick={this.handleClick} />
       </div>
     );
   }
 }
 
 export default Random;
-
-// ReactDOM.render(
-//   <Random />,
-//   document.getElementById('one')
-// );
